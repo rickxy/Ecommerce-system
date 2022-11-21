@@ -1,5 +1,6 @@
 <?php include 'includes/session.php'; ?>
 <?php
+
 	$conn = $pdo->open();
 
 	$slug = $_GET['product'];
